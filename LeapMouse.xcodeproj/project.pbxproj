@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C325528616CA1F1E00039BB2 /* libLeap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C325528516CA1F1E00039BB2 /* libLeap.dylib */; };
+		C325528816CA1F2800039BB2 /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = C325528516CA1F1E00039BB2 /* libLeap.dylib */; };
+		C325528C16CA1F8200039BB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C325528B16CA1F8200039BB2 /* CoreGraphics.framework */; };
+		C325528E16CA1FA700039BB2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C325528D16CA1FA700039BB2 /* ApplicationServices.framework */; };
+		C325529016CA216800039BB2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C325528F16CA216800039BB2 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C325527316CA1E7300039BB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C325528716CA1F2200039BB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				C325528816CA1F2800039BB2 /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C325527516CA1E7300039BB2 /* LeapMouse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeapMouse; sourceTree = BUILT_PRODUCTS_DIR; };
+		C325528516CA1F1E00039BB2 /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLeap.dylib; path = "../../../Leap_SDK/lib/libc++/libLeap.dylib"; sourceTree = "<group>"; };
+		C325528B16CA1F8200039BB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C325528D16CA1FA700039BB2 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		C325528F16CA216800039BB2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C325527216CA1E7300039BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325528E16CA1FA700039BB2 /* ApplicationServices.framework in Frameworks */,
+				C325528C16CA1F8200039BB2 /* CoreGraphics.framework in Frameworks */,
+				C325528616CA1F1E00039BB2 /* libLeap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C325526A16CA1E7300039BB2 = {
+			isa = PBXGroup;
+			children = (
+				C325527B16CA1E7300039BB2 /* LeapMouse */,
+				C325527816CA1E7300039BB2 /* Frameworks */,
+				C325527616CA1E7300039BB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C325527616CA1E7300039BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C325527516CA1E7300039BB2 /* LeapMouse */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C325527816CA1E7300039BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C325528516CA1F1E00039BB2 /* libLeap.dylib */,
+				C325528D16CA1FA700039BB2 /* ApplicationServices.framework */,
+				C325528B16CA1F8200039BB2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C325527B16CA1E7300039BB2 /* LeapMouse */ = {
+			isa = PBXGroup;
+			children = (
+				C325528F16CA216800039BB2 /* main.cpp */,
+			);
+			path = LeapMouse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C325527416CA1E7300039BB2 /* LeapMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C325528216CA1E7300039BB2 /* Build configuration list for PBXNativeTarget "LeapMouse" */;
+			buildPhases = (
+				C325527116CA1E7300039BB2 /* Sources */,
+				C325527216CA1E7300039BB2 /* Frameworks */,
+				C325527316CA1E7300039BB2 /* CopyFiles */,
+				C325528716CA1F2200039BB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapMouse;
+			productName = LeapMouse;
+			productReference = C325527516CA1E7300039BB2 /* LeapMouse */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C325526C16CA1E7300039BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = C325526F16CA1E7300039BB2 /* Build configuration list for PBXProject "LeapMouse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C325526A16CA1E7300039BB2;
+			productRefGroup = C325527616CA1E7300039BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C325527416CA1E7300039BB2 /* LeapMouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C325527116CA1E7300039BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C325529016CA216800039BB2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C325528016CA1E7300039BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = ../../../Leap_SDK/include;
+			};
+			name = Debug;
+		};
+		C325528116CA1E7300039BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = ../../../Leap_SDK/include;
+			};
+			name = Release;
+		};
+		C325528316CA1E7300039BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Leap_SDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C325528416CA1E7300039BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Leap_SDK/lib/libc++\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C325526F16CA1E7300039BB2 /* Build configuration list for PBXProject "LeapMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325528016CA1E7300039BB2 /* Debug */,
+				C325528116CA1E7300039BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C325528216CA1E7300039BB2 /* Build configuration list for PBXNativeTarget "LeapMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C325528316CA1E7300039BB2 /* Debug */,
+				C325528416CA1E7300039BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C325526C16CA1E7300039BB2 /* Project object */;
+}
